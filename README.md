@@ -2,11 +2,11 @@
 
 > Boilerplate Improvement Proposal Project Git Repo `README` file
 
-# Overview
+## Overview
 
 *This is the overview explanation of the *proposal* project/improvement. Explain the purpose of the improvement.*
 
-## Tested Against:
+### Tested Against:
 <!-- You can find specific versioning information used here at https://gist.github.com/sambacha/116b0dfc5c99cc8905545d63002b8f94 -->
 
 | Version | Build | Date <br>(yyyy-mm-dd) |
@@ -14,7 +14,7 @@
 | Version 0.6.4 | MDc6UmVsZWFzZTI0MzgwNTQ3 | 2020-03-10T15:26:16Z |
 
 
-## Proposal Responsibility:
+### Proposal Responsibility:
 
 | Person               | Contact Info           | Responsibility           |
 | -------------------- | ---------------------- | ------------------------ |
@@ -22,7 +22,7 @@
 | @github_dev1 | posixmeharder@tycoon.com | Developer |
 
 
-# Files
+## Files
 
 *Explain what is the purpose of each process and process related file in the project.*
 
@@ -58,7 +58,7 @@ Click to see file details:
   <hr>
 </details>
 
-# How to Deploy
+## How to Deploy
 
 Explanation of how to deploy this specific project goes here.
 
@@ -69,13 +69,13 @@ Explanation of how to deploy this specific project goes here.
 | Truffle | On creation of a Production Release. <br> Deployed to mainnet `chainid: 1` |
 | Web3 Provider | On commit to branch with pattern `build/development`. <br> Deployed to `testnet` `ropsten`
 
-# Change Log
+## Change Log
 
 *Store details about the releases of your improvement in the Change Log*
 
 [Improvement Change Log](CHANGELOG.md)
 
-# Other Information
+## Other Information
 
 *Explanation of other details about the project that may not have been included in the Overview.*
 
@@ -88,14 +88,14 @@ Examples:
 1. Explanation of designs and specific configurations.
 1. Related documentation that may be contained in another system or the `/docs` folder.
 
-## Additional Support documentation
+### Additional Support documentation
 
 *See the following for additional support documentation related to building and managing process projects:*
 <!-- This files and dir's should be created or something similar -->
 1. [Best Practices and Documentation Patterns](docs/patterns.md)
 2. [Helper Scripts and Snippets](docs/helpers.md)
 
-# Terminology
+## Terminology
 
 A list of terms used by this project.
 
@@ -108,3 +108,7 @@ A list of terms used by this project.
 | Margin Rate | | |
 | Stablecoin | | |
 | Tether | USDT | USDT Stablecoin |
+
+## License 
+
+SPDX-License-Identifier: CC0-1.0
