@@ -1,0 +1,146 @@
+= Improvement Proposal Overview Title
+:doctype: book
+
+:url-project: https://yearn.finance
+:url-docs: https://yearn.finance
+:url-org: https://github.com/iearn-finance
+:url-repo: ttps://github.com/iearn-finance/yips
+:url-group: {url-org}/yips
+:url-site-readme: {url-group}/README.md
+:url-opendevise: https://yearn.finance
+:url-yip-repo:
+:yip-status:
+
+== YIP
+
+* {vcs}[GitHub]
+* {yip-status}[YIP Status]
+* {url-yip-repo}[YIP-Repositories]
+
+== Overview
+
+_This is the overview explanation of the *proposal_ project/improvement.
+Explain the purpose of the improvement.*
+
+== Tested Against:
+
+// You can find specific versioning information used here at https://gist.github.com/sambacha/116b0dfc5c99cc8905545d63002b8f94
+
+[cols="^,^,^"]
+|===
+| Version | Build | Date + (yyyy-mm-dd)
+
+| Version 0.6.4
+| MDc6UmVsZWFzZTI0MzgwNTQ3
+| 2020-03-10T15:26:16Z
+|===
+
+== Proposal Responsibility:
+
+|===
+| Person | Contact Info | Responsibility
+
+| @github_usrname
+| usr@github_email.com
+| Proposal Submitter
+
+| @github_dev1
+| posixmeharder@tycoon.com
+| Developer
+|===
+
+== Files
+
+_Explain what is the purpose of each process and process related file in the project._
+
+Click to see file details:+++<details>++++++<summary>+++IYIPX.sol+++</summary>+++ +
+This file does something and its purpose is to do abc.
+
+'''+++</details>++++++<details>++++++<summary>+++deploy-mainnet.sh+++</summary>+++ +
+This file deploys the contracts on `mainnet`
+
+'''+++</details>++++++<details>++++++<summary>+++myEmailTemplate.ftl+++</summary>+++ +
+This file does something and its purpose is to do abc. Image example of the **Rendered** FreeMarker file (if applicable)
+
+'''+++</details>+++
+
+== How to Deploy
+
+Explanation of how to deploy this specific project goes here.
+
+_For further deployment templates and options see:_ xref:docs/deployment.adoc[Deployment Documentation]
+
+|===
+| Method | Trigger
+
+| Truffle
+| On creation of a Production Release.
++ Deployed to mainnet `chainid: 1`
+
+| Web3 Provider
+| On commit to branch with pattern `build/development`.
++ Deployed to `testnet` `ropsten`
+|===
+
+== Change Log
+
+_Store details about the releases of your improvement in the Change Log_
+
+xref:CHANGELOG.adoc[Improvement Change Log]
+
+=== Other Information
+
+_Explanation of other details about the project that may not have been included in the Overview._
+
+Examples:
+
+. Use cases.
+. Error handling.
+. If there is re-usable code that could be used for other purposes.
+. Explanation of any specific configurations, in-line code or expressions in any of the process files.
+. Explanation of designs and specific configurations.
+. Related documentation that may be contained in another system or the `/docs` folder.
+
+== Additional Support documentation
+
+_See the following for additional support documentation related to building and managing process projects:_
+// This files and dir's should be created or something similar
+
+. xref:docs/patterns.adoc[Best Practices and Documentation Patterns]
+. xref:docs/helpers.adoc[Helper Scripts and Snippets]
+
+=== Terminology
+
+A list of terms used by this project.
+
+|===
+| Term | Acronym | Definition
+
+| Requestor
+|
+|
+
+| Initiator
+|
+| Another term used for requestor.
+
+| Protocol
+|
+|
+
+| Proxy
+|
+|
+
+| Margin Rate
+|
+|
+
+| Stablecoin
+|
+|
+
+| Tether
+| USDT
+| USDT Stablecoin
+|===
