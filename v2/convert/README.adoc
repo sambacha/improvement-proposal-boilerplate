@@ -56,13 +56,13 @@ _Explain what is the purpose of each process and process related file in the pro
 Click to see file details:+++<details>++++++<summary>+++IYIPX.sol+++</summary>+++ +
 This file does something and its purpose is to do abc.
 
-'''+++</details>++++++<details>++++++<summary>+++deploy-mainnet.sh+++</summary>+++ +
++++</details>++++++<details>++++++<summary>+++deploy-mainnet.sh+++</summary>+++ +
 This file deploys the contracts on `mainnet`
 
-'''+++</details>++++++<details>++++++<summary>+++myEmailTemplate.ftl+++</summary>+++ +
++++</details>++++++<details>++++++<summary>+++myEmailTemplate.ftl+++</summary>+++ +
 This file does something and its purpose is to do abc. Image example of the **Rendered** FreeMarker file (if applicable)
 
-'''+++</details>+++
++++</details>+++
 
 == How to Deploy
 
